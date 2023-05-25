@@ -78,3 +78,16 @@
 // evenNumber = evenNumber + 2;
 // }
 // }
+Console.WriteLine("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int evenNumber = 2;
+
+if(num > 1)
+{
+while(evenNumber <= num)
+{
+Console.Write(evenNumber);
+evenNumber = evenNumber + 2;
+}
+}
