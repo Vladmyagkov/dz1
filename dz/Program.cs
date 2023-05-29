@@ -3,26 +3,26 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите число");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-if(num>num2)
-{
-    Console.Write("max=");
-    Console.Write(num);
-}
-else if(num==num2)
-{
-    Console.Write("Они равны");
-}
-else
-{
-    Console.Write("max=");
-    Console.Write(num2);
-}
+// if(num>num2)
+// {
+//     Console.Write("max=");
+//     Console.Write(num);
+// }
+// else if(num==num2)
+// {
+//     Console.Write("Они равны");
+// }
+// else
+// {
+//     Console.Write("max=");
+//     Console.Write(num2);
+// }
 
 
 // _______________________________________________________________________
